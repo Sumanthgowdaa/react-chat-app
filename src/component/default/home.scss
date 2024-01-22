@@ -1,0 +1,16 @@
+$chat-bg-1: #009688;
+$chat-bg-2: #d9dbd5;
+
+.app-body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        $chat-bg-1 0%,
+        $chat-bg-1 130px,
+        $chat-bg-2 130px,
+        $chat-bg-2 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

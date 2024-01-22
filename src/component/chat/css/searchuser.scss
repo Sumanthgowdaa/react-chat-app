@@ -1,0 +1,41 @@
+$bg-color:#f6f6f6;
+$bg-white:#fff;
+$txt:#bbb;
+
+.search_chat {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+
+    div {
+        width: 100%;
+
+        input {
+            width: 100%;
+            outline: none;
+            border: none;
+            background-color: $bg-white;
+            padding: 8px;
+            height: 40px;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding-left: 40px;
+        }
+
+        i {
+            position: absolute;
+            left: 26px;
+            top: 15px;
+            font-size: 1.2rem;
+            font-weight: 800;
+            &::placeholder {
+                color:$txt;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+$bg-header: #ededed;
+$bg-hover: #ddd;
+$bg-active: #999;
+$bg-white:#fff;
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: $bg-header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .userimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.header .userimg img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 1.3rem;
+    padding-right: 20px;
+}
+
+.header .icons i {
+    cursor: pointer;
+    padding:5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background-color: $bg-hover;
+        border-radius: 50%;
+    }
+    &:active {
+        background-color: $bg-active;
+        color:$bg-white;
+    }
+}

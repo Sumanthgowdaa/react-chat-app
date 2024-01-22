@@ -1,0 +1,8 @@
+$bg-light: #fff;
+$border-light: rgba(0,0,0,0.06);
+
+.left-side {
+    background-color: $bg-light;
+    flex: 30%;
+    border-right: $border-light;
+}
